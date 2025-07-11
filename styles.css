@@ -10,16 +10,28 @@ height: 500px;
 
 .div1 { 
     grid-area: 1 / 1 / 3 / 5; 
-    background-color: #aa6666;
+    background-color: #877e7e;
 } 
 
-.div2 { grid-area: 1 / 5 / 3 / 11; }
+.div2 { 
+    grid-area: 1 / 5 / 3 / 11; 
+    background-color: #c4bcbc;
+}
 
-.div3 { grid-area: 1 / 11 / 3 / 16; }
+.div3 { 
+    grid-area: 1 / 11 / 3 / 16; 
+    background-color: #d3b23d;
+}
 
-.div4 { grid-area: 1 / 16 / 13 / 17; }
+.div4 { 
+    grid-area: 1 / 16 / 13 / 17; 
+    background-color: #c4bcbc;
+}
 
-.div5 { grid-area: 3 / 1 / 7 / 3; }
+.div5 { 
+    grid-area: 3 / 1 / 7 / 3; 
+    background-color: #c4bcbc;
+}
 
 .div6 { grid-area: 7 / 1 / 13 / 3; }
 
