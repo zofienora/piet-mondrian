@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+
 .parent {
 display: grid;
 grid-template-columns: repeat(16, 1fr);
@@ -33,9 +47,15 @@ height: 500px;
     background-color: #c4bcbc;
 }
 
-.div6 { grid-area: 7 / 1 / 13 / 3; }
+.div6 { 
+    grid-area: 7 / 1 / 13 / 3; 
+    background-color: #877e7e;
+}
 
-.div7 { grid-area: 13 / 1 / 17 / 3; }
+.div7 { 
+    grid-area: 13 / 1 / 17 / 3; 
+    background-color: #d3b23d;
+}
 
 .div8 { grid-area: 15 / 3 / 17 / 7; }
 
